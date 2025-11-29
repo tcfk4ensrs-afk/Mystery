@@ -1,65 +1,70 @@
 <!DOCTYPE html><html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Page1 - Mystery</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: radial-gradient(circle at center, #111 0%, #000 100%);
-      color: #fff;
-      text-align: center;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-}
-
-p {
-  font-size: 1.2em;
-  margin-bottom: 40px;
-  color: #aaa;
-}
-
-a {
-  display: inline-block;
-  padding: 12px 25px;
-  margin: 0 10px;
-  color: #0ff;
-  text-decoration: none;
-  border: 2px solid #0ff;
-  border-radius: 8px;
-  transition: 0.3s;
-  font-weight: bold;
-  box-shadow: 0 0 10px #0ff50;
-}
-
-a:hover {
-  background-color: #0ff1;
-  box-shadow: 0 0 20px #0ff;
-}
-
-footer {
-  position: absolute;
-  bottom: 10px;
-  font-size: 0.9em;
-  color: #555;
-}
-
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page1 - Mystery</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+    color: #fff;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  }
+  main {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  img {
+    max-width: 80%;
+    border: 2px solid #0ff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #0ff;
+    margin-top: 20px;
+  }
+  a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 0 10px;
+    color: #0ff;
+    text-decoration: none;
+    border: 2px solid #0ff;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+    box-shadow: 0 0 10px #0ff50;
+  }
+  a:hover {
+    background-color: #0ff1;
+    box-shadow: 0 0 20px #0ff;
+  }
+  footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
 </head>
 <body>
   <h1>Page1</h1>
-  <p>ここはMysteryサイトのサブページです。トップページと同じ雰囲気で作っています。</p>
+  <main>
+    <p>ここはMysteryサイトのサブページです。</p>
+    <img src="images/mystery.jpg" alt="Mystery Image">
+  </main>
   <nav>
-    <a href="/">Home</a>
-    <a href="/page1.html">Page1</a>
+    <a href="index.html">Home</a>
+    <a href="page1.html">Page1</a>
   </nav>
   <footer>&copy; 2025 Mystery</footer>
 </body>

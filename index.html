@@ -1,25 +1,70 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html><html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About - Mystery</title>
-  <link rel="stylesheet" href="style.css"> <!-- 共通CSSがあれば読み込む -->
+  <title>Mystery</title>
+  <style>
+    /* ページ全体 */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: radial-gradient(circle at center, #111 0%, #000 100%);
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }/* 見出し */
+h1 {
+  font-size: 4em;
+  margin: 0 0 20px;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+/* サブテキスト */
+p {
+  font-size: 1.5em;
+  margin: 0 0 40px;
+  color: #aaa;
+}
+
+/* リンクボタン風 */
+a {
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 0 10px;
+  color: #0ff;
+  text-decoration: none;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: bold;
+  box-shadow: 0 0 10px #0ff50;
+}
+a:hover {
+  background-color: #0ff1;
+  box-shadow: 0 0 20px #0ff;
+}
+
+/* フッター */
+footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Mystery サイトについて</h1>
-    <nav>
-      <a href="/">トップ</a>
-      <a href="/about.html">About</a>
-      <!-- 他ページリンク -->
-    </nav>
-  </header>
-  <main>
-    <p>このサイトはミステリーな体験を提供するページです。</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Mystery</p>
-  </footer>
+  <h1>Mystery</h1>
+  <p>不思議な世界へようこそ</p>
+  <nav>
+    <a href="/page1.html">Page1</a>
+    <!-- 他ページリンクをここに追加 -->
+  </nav>
+  <footer>&copy; 2025 Mystery</footer>
 </body>
 </html>
